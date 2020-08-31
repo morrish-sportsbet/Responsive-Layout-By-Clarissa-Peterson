@@ -1,0 +1,18 @@
+html {
+  box-sizing: border-box;
+  font-family: arial, helvetica, sans-serif;
+}
+img {
+  max-width: 100%;
+}
+*, *:after, *:before {
+  box-sizing: inherit;
+}
+.container {
+  border: 2px solid #000;
+}
+.container > * {
+  border: 2px solid green;
+  background-color: #ffec99;
+  padding: 10px;
+}
