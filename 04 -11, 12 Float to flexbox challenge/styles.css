@@ -25,3 +25,39 @@ header {
 	background-color: #E9F9E1;
 	border: 1px solid gray;
 }
+header {
+	display: flex;
+	justify-content: space-between;
+}
+.image1 {
+	order: -1;
+}
+.image2 {
+	order: 1;
+}
+.container {
+	display: flex;
+}
+.links {
+	order: 1;
+	min-width: 200px;
+}
+@media (max-width: 500px) {
+	header {
+		flex-wrap: wrap;
+	}
+	h1 {
+		order: -3;
+	}
+	.image1, .image2 {
+		max-width: 48%;
+	}
+}
+@media (max-width: 750px) {
+	.container {
+		flex-wrap: wrap;
+	}
+	.links {
+		width: 100%;
+	}
+}
