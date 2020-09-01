@@ -20,4 +20,9 @@ img {
 .container {
   display: grid;
   grid-gap: 10px;
+  grid-template-columns: [start] 1fr [content-start] repeat(3, 1fr) [content-end] 1fr [end];
+}
+.item3 {
+  background-color: blue;
+  grid-column: content-start / content-end;
 }
