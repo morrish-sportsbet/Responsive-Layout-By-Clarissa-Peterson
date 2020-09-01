@@ -25,3 +25,8 @@ img {
   min-height: 90vh;
   align-items: stretch;
 }
+.item2 {
+  background-color: brown;
+  justify-self: center;
+  align-self: center;
+}
