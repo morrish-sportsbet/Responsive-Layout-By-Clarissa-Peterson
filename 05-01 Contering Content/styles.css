@@ -11,8 +11,8 @@ img {
 .container {
 	border: 1px solid #000;
 	margin: 30px;
-	height: 500px;
-	width: 500px;
+	height: 90vw;
+	width: 90%;
 }
 .container>* {
 	border: 2px dashed blue;
@@ -21,6 +21,16 @@ img {
 }
 .item {
 	border: 2px solid green;
-	width: 200px;
-	height: 200px;
+	width: 100px;
+	height: 100px;
+}
+/* .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+.container {
+  display: grid;
+  justify-content: center;
+  align-content: center;
 }
