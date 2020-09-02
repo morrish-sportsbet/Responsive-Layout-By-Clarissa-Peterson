@@ -17,3 +17,29 @@ img {
 	background-color: #ffec99;
 	padding: 10px;
 }
+/* creating grid layout */
+.container {
+	display: grid;
+	grid-gap: 20px;
+	grid-template-areas:
+	"header"
+	"content"
+	"related"
+	"ads"
+	"footer";
+}
+.main-header {
+	grid-area: header;
+}
+.main-content {
+	grid-area: content;
+}
+.related-links {
+	grid-area: related;
+}
+.ads {
+	grid-area: ads;
+}
+.main-footer {
+	grid-area: footer;
+}
