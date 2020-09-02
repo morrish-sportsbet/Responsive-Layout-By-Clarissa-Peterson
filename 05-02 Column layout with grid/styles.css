@@ -43,3 +43,22 @@ img {
 .main-footer {
 	grid-area: footer;
 }
+@media (min-width: 500px) {
+	.container {
+		grid-template-columns: repeat(3, 1fr);
+		grid-template-areas:
+		"header 	header 	header"
+		"content	content related"
+		"content	content	ads"
+		"footer		footer	footer";
+	}
+}
+@media (min-width: 700px) {
+	.container {
+		grid-template-columns: repeat(4, 1fr);
+		grid-template-areas:
+		"header 	header 	header 	header"
+		"related 	content	content	ads"
+		"footer 	footer 	footer 	footer";
+	}
+}
