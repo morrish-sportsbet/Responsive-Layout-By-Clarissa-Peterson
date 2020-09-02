@@ -45,17 +45,27 @@ header {
 @media (max-width: 500px) {
 	header {
 		flex-wrap: wrap;
+		/* justify-content: center; */
 	}
 	h1 {
 		order: -3;
+		width: 100%;
+
 	}
 	.image1, .image2 {
 		max-width: 48%;
 	}
 }
 @media (max-width: 750px) {
+header {
+	/* border: 2px solid green; */
+}
 	.container {
 		flex-wrap: wrap;
+	}
+	header h1 {
+		/* border: 1px solid red; */
+		/* padding-top: 0; */
 	}
 	.links {
 		width: 100%;
